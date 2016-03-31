@@ -1,0 +1,47 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOVALS -->
+  <remove-project name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
+  <remove-project name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="stable/cm-12.1-caf-8084-YOG7D" />
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="stable/cm-12.1-caf-8916-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="stable/cm-12.1-caf-8960-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="stable/cm-12.1-caf-8994-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="stable/cm-12.1-caf-8084-YOG7D" />
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="stable/cm-12.1-caf-8916-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="stable/cm-12.1-caf-8960-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="stable/cm-12.1-caf-8994-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="stable/cm-12.1-caf-8084-YOG7D" />
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="stable/cm-12.1-caf-8916-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="stable/cm-12.1-caf-8960-YOG7D" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="stable/cm-12.1-caf-8994-YOG7D" />
+  <remove-project name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
+  <remove-project name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
+  <remove-project name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
+  <remove-project name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
+
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" remote="aosp" />
+
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="aosp" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" revision="master" />
+</manifest>
